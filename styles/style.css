@@ -1,0 +1,14 @@
+.container {
+    border: black solid 2px;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    
+}
+
+.grid-box {
+    border: red 1px solid;
+    display: inline-block;
+    width:6.25%;
+    /* flex-grow:  */
+    box-sizing: border-box;
+}
