@@ -35,9 +35,14 @@ function generateGrid(numSquares) {
             gridElement.classList.add('grid-box');
             gridElement.textContent = '';
             gridElement.style.width = ""+gridWidth+"%";
-
+            
+            let r = Math.round(Math.random()*256).toString();
+            let g = Math.round(Math.random()*256).toString();
+            let b = Math.round(Math.random()*256).toString();
+            let a = 0;
             gridElement.addEventListener('mouseover', (event) => {
-                gridElement.style.backgroundColor = 'blue';
+                a+=.1;
+                gridElement.style.backgroundColor = `rgb(${r},${g},${b},${a})`;
             });
             container.appendChild(gridElement);
         }
