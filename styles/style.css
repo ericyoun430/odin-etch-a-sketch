@@ -1,14 +1,23 @@
 .container {
-    border: black solid 2px;
+    border: black solid 1px;
+    display: flex;
     flex-wrap: wrap;
     box-sizing: border-box;
-    
+    width: 80%;
+    flex-direction: row;
 }
 
 .grid-box {
     border: red 1px solid;
     display: inline-block;
-    width:6.25%;
-    /* flex-grow:  */
     box-sizing: border-box;
+    width: 6.25%;
+    aspect-ratio: 1/.50;
+    margin: 0px;
+    padding: 0px;
+    grid-row-
+}
+div {
+    padding: 0px;
+    margin: 0px;
 }
